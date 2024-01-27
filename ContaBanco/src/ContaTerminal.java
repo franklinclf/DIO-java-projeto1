@@ -22,7 +22,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o saldo inicial: ");
         saldo = entrada.nextFloat();
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %.2f ja está disponível para saque", nomeCliente, agencia, numero, saldo);
+        System.out.printf("Olá, %s! Obrigado por criar uma conta em nosso banco. \nSua agência é %s, conta %d e seu saldo de R$ %.2f ja está disponível para saque.", nomeCliente, agencia, numero, saldo);
 
         entrada.close();
     }
